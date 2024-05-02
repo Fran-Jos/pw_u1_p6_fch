@@ -1,0 +1,42 @@
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px 15px;
+    border: 1px solid #550000cb;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+ul {
+    background-color: aqua;
+    list-style: none;
+
+    border-radius: 5%;
+}
+
+h2 {
+    color: blue;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+h1 {
+    color: blue;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+/*
+.menu, li {
+    color:red;
+}
+
+li {
+    background-color: black;
+}
+
+*/
