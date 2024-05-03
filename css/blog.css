@@ -1,0 +1,107 @@
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px 15px;
+    border: 1px solid #EAF2F8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #EAF2F8;
+}
+ul {
+    background-color: #7FB3D5;
+    list-style: none;
+    border-radius: 5%;
+}
+
+h2 {
+    color: #EAF2F8;
+    background-color: #5499C7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+h1 {
+    color: #EAF2F8;
+    background-color: #7FB3D5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background: #2980B9;
+    margin-left: 200px;
+}
+
+p{
+    color: #EAF2F8;
+}
+
+.container{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #EAF2F8;
+    border-radius: 5px;
+
+}
+time{
+    color: #EAF2F8;
+   
+}
+
+
+
+.cabecera{
+    background-color: #7FB3D5;
+    border: 1px solid #EAF2F8;
+}
+
+.secction{
+    width: 900px;
+    margin: 10px;
+    float: left;
+}
+
+#idart1 , #idart2 {
+    background-color:#366686;
+    border: 1px solid #EAF2F8;
+}
+
+article footer{
+    text-align: right;
+    
+}
+.Referencia{
+    width: 300px;
+    float: right;
+    margin: 20px 5px;
+    border-color: #EAF2F8;
+}
+
+.cuerpo{
+    background-color: #1d384b;
+}
+
+
+.pie{
+    clear: both;
+}
+
+blockquote{
+    border: 1px solid #EAF2F8;
+    padding: 5px;
+    background: #7FB3D5;
+    width: 150px;
+    color: #EAF2F8;
+}
+img{
+    width: 175px;
+    height: 100px;
+    margin: auto auto ;
+}
