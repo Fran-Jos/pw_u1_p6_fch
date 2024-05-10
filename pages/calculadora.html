@@ -9,7 +9,26 @@
     <script>
         function cambiartexto(idElemento){
 
+            document.getElementById(idElemento).style.background="yellow";
+            document.getElementById(idElemento).style.fontSize="30px";
+
         }
+
+        function sumar( n1 , n2){
+            var total = n1 +n2;
+            console.log(total)
+        }
+
+        function sumarCompleto(){
+
+            var num1 = parseInt(document.getElementById('idn1').value);
+            var num2 = parseInt(document.getElementById('idn2').value);
+
+            var total = num1 +num2;
+      
+            console.log(total)
+        }
+
 
 
     </script>
@@ -23,11 +42,22 @@
     <section>
         <label id="idlb1" for="idn1">número 1:</label>
         <input type="number" id="idn1">
-        <label for="idn2">número 2:</label>
+        <label id="idlb2" for="idn2">número 2:</label>
         <input type="number" id="idn2">
+
+        <label for=""></label>
 
         <button onclick="document.getElementById('idlb1').style.color= 'red'">cambiar color</button>
         <button onclick="document.getElementById('idlb1').style.fontSize='35px'">cambiar tamanio</button>
+    
+        <button onclick="cambiartexto('idlb1')">cambiar Número1</button>
+        <button onclick="cambiartexto('idlb2')">cambiar Número2</button>
+        <button onclick="sumar(document.getElementById('idn1').value ,document.getElementById('idn2').value )">SUMAR</button>
+
+        <button onclick="sumarCompleto()">sumarCompleto</button>
+
+    
+    
     </section>
     <footer></footer>
 
