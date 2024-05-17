@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="/js/calculadoraCompleta.js"  ></script>
 </head>
 <body>
     <header></header>
@@ -14,26 +15,26 @@
 
       <div class="calculadora">
 
-        <div class="display">4234</div>
+        <div class="display" id="idDisplay"></div>
 
         <button id="idC">C</button>
-        <button>&larr;</button>
-        <button>%</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>X</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button>
+        <button id="idBorrar">&larr;</button>
+        <button onclick=" funciones('idDivision')" id="idDivision" >%</button>
+        <button id="id7" onclick="registrarNumero(7)">7</button>
+        <button id="id8" onclick="registrarNumero(8)" >8</button>
+        <button id="id9" onclick="registrarNumero(9)" >9</button>
+        <button onclick=" funciones('idMulti')" id="idMulti" >X</button>
+        <button id="id4">4</button>
+        <button id="id5">5</button>
+        <button id="id6">6</button>
+        <button onclick=" funciones('idResta')" id="idResta" >-</button>
+        <button id="id1">1</button>
+        <button id="id2">2</button>
+        <button id="id3">3</button>
+        <button onclick=" funciones('idSuma')" id="idSuma" >+</button>
         <button id="id0">0</button>
-        <button>.</button>
-        <button>=</button>
+        <button id="id.">.</button>
+        <button onclick=" funciones('idIgual')" id="idIgual" >=</button>
         </div>
 
       </div>  

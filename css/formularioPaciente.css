@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*para mostrar el texto*/
+p::before{
+    content: attr(type);
+    display: block;
+    margin: 3px 2px;
+    font-size: 15px;
+    color: #aba9c2 ;
+}
+
+input{
+    width: 200px;
+    border: none;
+    background-color: #1a193d;
+
+    border-bottom: 2px solid #ffffff;
+}
+
+input:focus{
+    outline: none;
+    background-color: #1a193d;
+    border-bottom: 2px solid #6c63ff;
+    color: #aba9c2;
+
+}
+
+h2{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.formulario{
+    background-color: #1a193d;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+body{
+    font-family: "Trirong", serif;
+
+}
