@@ -53,3 +53,27 @@ body{
     font-family: "Trirong", serif;
 
 }
+
+.form{
+    height: 370px;
+    background-color: #aba9c2;
+    border-radius: 10px;
+    padding: 25px 35 px;
+    box-shadow:  0 0 40px 5px #000;
+}
+
+.guardar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #aba9c2;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
